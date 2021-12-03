@@ -13,4 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Nearside Android Tech Screen Starter"
-include ':app'
+include ':app-kotlin'
+include ':app-java'
