@@ -15,6 +15,7 @@ You'll need the following:
         brew tap AdoptOpenJdk/opendjk # this tap is deprecated and should only be used for JDK15!!
         brew install adoptopenjdk15
         ```
+This repo is configured for both Kotlin and Java ☕️ ; we encourage you to use _whichever language you feel most comfortable in_. 
 
 Here are the libraries the starter kit currently has: 
 - Kotlin
@@ -41,9 +42,11 @@ There will be two parts to the problem:
 
 We'll save ~5 min at the beginning + end for hellos, howdy-do's, and questions. 
 
-The Mobile@Nearside promise: we won't ask you to solve any problems that you learned in Data Structures & Algorithms class. 
+The Mobile@Nearside promises: 
 
-The task at hand will be a straightforward programming problem for which there is an iterative solution that can be obtained in less than 30 lines of code. 
+- we won't ask you to solve any problems that you learned in Data Structures & Algorithms class. The prompt will be a straightforward programming problem for which there is an iterative solution that can be obtained in less than 30 lines of code. 
+- we won't evaluate your choice of language or framework (Java vs. Kotlin, Rx vs. Coroutines), we care about solving the problem!
+- it's an open-book test; you'd use Google on the job, no reason you can't use it here!
 
 Other than that, you'll have to wait and see! 😁
 
