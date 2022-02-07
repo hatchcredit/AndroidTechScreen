@@ -6,20 +6,20 @@ Welcome to Nearside's Code Screen starter repository!
 
 You'll need the following: 
 
-1. Android Studio Arctic Fox (2020.3.1) Patch 3
+1. Android Studio Bumblebee Patch 1
 1. the Android SDK (i.e. `$ANDROID_HOME` points somewhere real)
-1. Any JDK version between 11 and 15. 
-   - note: as of this writing (11/2021), Kotlin `1.5.31` does _not_ play nicely with Java 16 or 17. If you're using these versions, **you will have problems**.
-   - You can try installing Java 15 on MacOS via:
+1. Any JDK version >=11
+   - We recommend Azul/Zulu JDK 17, which works well with Kotlin 1.6.10
         ```shell
-        brew tap AdoptOpenJdk/opendjk # this tap is deprecated and should only be used for JDK15!!
-        brew install adoptopenjdk15
+        brew install --cask zulu
+        export JAVA_HOME=`/usr/libexec/java_home -v 17`
+        java --version # should read `openjdk 17.0.2 2022-01-18 LTS`
         ```
 This repo is configured for both Kotlin and Java ☕️ ; we encourage you to use _whichever language you feel most comfortable in_. 
 
 Here are the libraries the starter kit currently has: 
 - Kotlin
-    - stdlib 1.5.31
+    - stdlib 1.6.10
     - Coroutines Core + Android
 - AndroidX
     - Core-KTX
