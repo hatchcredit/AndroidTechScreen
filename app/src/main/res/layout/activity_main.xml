@@ -8,4 +8,4 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" />
 
-    <!--android:name="nearside.interview.android.ui.main.MainFragmentJava"-->
+    <!--android:name="nearside.interview.android.ui.main.JavaMainFragment"-->

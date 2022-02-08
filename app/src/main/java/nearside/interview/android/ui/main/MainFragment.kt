@@ -9,7 +9,6 @@ import nearside.interview.android.databinding.FragmentMainBinding
 
 class MainFragment : Fragment(R.layout.fragment_main) {
 
-//    private val viewModel by viewModels<MainViewModelJava>()
     private val viewModel by viewModels<MainViewModel>()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

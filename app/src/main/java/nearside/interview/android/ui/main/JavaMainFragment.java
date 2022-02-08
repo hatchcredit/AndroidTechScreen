@@ -11,12 +11,13 @@ import androidx.lifecycle.ViewModelProvider;
 import nearside.interview.android.R;
 import nearside.interview.android.databinding.FragmentMainBinding;
 
-class MainFragmentJava extends Fragment {
+class JavaMainFragment extends Fragment {
 
-    public MainFragmentJava() {
+    public JavaMainFragment() {
         super(R.layout.fragment_main);
     }
 
+    //TODO change the fragment in activity_main.xml!
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
